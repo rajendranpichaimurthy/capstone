@@ -1,0 +1,34 @@
+{
+  "best_model": "XGBoost",
+  "selection_metric": "cv_roc_auc (5-fold, training set)",
+  "features": [
+    "engine_rpm",
+    "lub_oil_pressure",
+    "fuel_pressure",
+    "coolant_pressure",
+    "lub_oil_temp",
+    "coolant_temp"
+  ],
+  "target": "engine_condition",
+  "decision_threshold": 0.5,
+  "best_params": {
+    "colsample_bytree": 0.759395,
+    "gamma": 3.515095,
+    "learning_rate": 0.034445,
+    "max_depth": 2,
+    "min_child_weight": 12,
+    "n_estimators": 394,
+    "reg_lambda": 0.987409,
+    "subsample": 0.720351
+  },
+  "cv_roc_auc": 0.7022,
+  "test_metrics": {
+    "accuracy": 0.6698,
+    "precision": 0.6956,
+    "recall": 0.8469,
+    "f1": 0.7638,
+    "roc_auc": 0.7064
+  },
+  "mlflow_experiment": "engine-predictive-maintenance",
+  "mlflow_run_id": "0eb886f5ce08491f9f367b6af7c3450a"
+}
