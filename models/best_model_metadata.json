@@ -30,5 +30,5 @@
     "roc_auc": 0.7064
   },
   "mlflow_experiment": "engine-predictive-maintenance",
-  "mlflow_run_id": "0eb886f5ce08491f9f367b6af7c3450a"
+  "mlflow_run_id": "cbacb021fe2a410dbaa3598c1705808d"
 }
